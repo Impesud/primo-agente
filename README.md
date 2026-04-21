@@ -79,12 +79,12 @@ Tool registrati (`AVAILABLE_TOOLS`):
 ```mermaid
 flowchart TD
   mainPy[main.py] -->|create| simpleAgent[SimpleAgent]
-  mainPy -->|execute_command(task, command, kwargs)| execCmd[SimpleAgent.execute_command]
-  execCmd -->|route_command(command)| router[route_command]
+  mainPy -->|"execute_command(task, command, kwargs)"| execCmd[SimpleAgent.execute_command]
+  execCmd -->|"route_command(command)"| router[route_command]
   router --> toolName[tool_name]
-  execCmd -->|execute(task, tool_name, kwargs)| execTool[SimpleAgent.execute]
+  execCmd -->|"execute(task, tool_name, kwargs)"| execTool[SimpleAgent.execute]
   execTool -->|lookup| toolRegistry[AVAILABLE_TOOLS]
-  toolRegistry -->|call tool(**kwargs)| toolFn[tool function]
+  toolRegistry -->|"call tool(kwargs)"| toolFn[tool function]
   toolFn --> result[Any]
   result -->|format_output| formatter[format_output]
   formatter --> printed[stdout]
