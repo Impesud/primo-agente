@@ -6,6 +6,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 
 from agentic.agent import SimpleAgent
+from agentic.router import route_command
 
 def main():
     # Inizializziamo l'agente
@@ -14,18 +15,20 @@ def main():
     print("--- BENVENUTO NEL SISTEMA AGENTICO ---")
 
     # Esempio 1: Calcolo
-    risultato_somma = bot.execute_command(
-        task="Calcola la somma di 15 e 30", 
-        command="somma",
+    comando_somma = "somma"
+    risultato_somma = bot.execute(
+        task="Calcola la somma di 15 e 30",
+        tool_name=route_command(comando_somma),
         a=15, 
         b=30
     )
     print(risultato_somma)
 
     # Esempio 2: Ora attuale
-    risultato_ora = bot.execute_command(
-        task="Dimmi che ore sono", 
-        command="ora"
+    comando_ora = "ora"
+    risultato_ora = bot.execute(
+        task="Dimmi che ore sono",
+        tool_name=route_command(comando_ora),
     )
     print(risultato_ora)
 
