@@ -1,0 +1,12 @@
+[project]
+name = "prework-repo"
+version = "0.1.0"
+description = "Un agente IA molto semplice"
+dependencies = [
+    "openai",          # Per collegare un vero LLM in futuro
+    "python-dotenv",   # Per gestire le chiavi API
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

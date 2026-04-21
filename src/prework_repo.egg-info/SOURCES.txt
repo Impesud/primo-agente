@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/agentic/__init__.py
+src/agentic/activity_log.py
+src/agentic/agent.py
+src/agentic/io_utils.py
+src/agentic/router.py
+src/agentic/tools.py
+src/prework_repo.egg-info/PKG-INFO
+src/prework_repo.egg-info/SOURCES.txt
+src/prework_repo.egg-info/dependency_links.txt
+src/prework_repo.egg-info/requires.txt
+src/prework_repo.egg-info/top_level.txt
+tests/test_agent.py
+tests/test_router.py
+tests/test_tools.py
