@@ -1,5 +1,5 @@
 [project]
-name = "prework-repo"
+name = "primo-agente"
 version = "0.1.0"
 description = "Un agente IA molto semplice"
 dependencies = [
@@ -7,6 +7,17 @@ dependencies = [
     "python-dotenv",   # Per gestire le chiavi API
 ]
 
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

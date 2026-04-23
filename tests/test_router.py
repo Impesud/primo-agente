@@ -6,6 +6,7 @@ from agentic.router import route_command
 def test_route_command_ok():
     assert route_command("ora") == "get_current_time"
     assert route_command("somma") == "add_numbers"
+    assert route_command("llm") == "ask_llm"
 
 
 def test_route_command_normalization():

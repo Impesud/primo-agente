@@ -5,6 +5,7 @@ from .activity_log import log_event
 COMMAND_TO_TOOL: dict[str, str] = {
     "ora": "get_current_time",
     "somma": "add_numbers",
+    "llm": "ask_llm",
 }
 
 

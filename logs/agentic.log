@@ -70,3 +70,76 @@
 {"ts": "2026-04-21T17:03:48", "event": "router_routed", "command": "  ORA  ", "normalized": "ora", "tool_name": "get_current_time"}
 {"ts": "2026-04-21T17:03:48", "event": "router_error", "command": "", "reason": "empty_command"}
 {"ts": "2026-04-21T17:03:48", "event": "router_error", "command": "non_esiste", "reason": "unknown_command"}
+{"ts": "2026-04-23T08:48:00", "event": "router_routed", "command": "somma", "normalized": "somma", "tool_name": "add_numbers"}
+{"ts": "2026-04-23T08:48:00", "event": "tool_start", "agent_name": "Zeta", "task": "Calcola la somma di 15 e 30", "tool_name": "add_numbers", "kwargs": {"a": 15, "b": 30}}
+{"ts": "2026-04-23T08:48:00", "event": "tool_ok", "agent_name": "Zeta", "task": "Calcola la somma di 15 e 30", "tool_name": "add_numbers", "elapsed_ms": 0}
+{"ts": "2026-04-23T08:48:00", "event": "router_routed", "command": "ora", "normalized": "ora", "tool_name": "get_current_time"}
+{"ts": "2026-04-23T08:48:00", "event": "tool_start", "agent_name": "Zeta", "task": "Dimmi che ore sono", "tool_name": "get_current_time", "kwargs": {}}
+{"ts": "2026-04-23T08:48:00", "event": "tool_ok", "agent_name": "Zeta", "task": "Dimmi che ore sono", "tool_name": "get_current_time", "elapsed_ms": 0}
+{"ts": "2026-04-23T10:02:53", "event": "router_routed", "command": "ora", "normalized": "ora", "tool_name": "get_current_time"}
+{"ts": "2026-04-23T10:02:53", "event": "tool_start", "agent_name": "Zeta", "task": "Esegui comando: ora", "tool_name": "get_current_time", "kwargs": {}}
+{"ts": "2026-04-23T10:02:53", "event": "tool_ok", "agent_name": "Zeta", "task": "Esegui comando: ora", "tool_name": "get_current_time", "elapsed_ms": 0}
+{"ts": "2026-04-23T10:07:08", "event": "router_routed", "command": "ora", "normalized": "ora", "tool_name": "get_current_time"}
+{"ts": "2026-04-23T10:07:08", "event": "tool_start", "agent_name": "Zeta", "task": "Esegui comando: ora", "tool_name": "get_current_time", "kwargs": {}}
+{"ts": "2026-04-23T10:07:08", "event": "tool_ok", "agent_name": "Zeta", "task": "Esegui comando: ora", "tool_name": "get_current_time", "elapsed_ms": 0}
+{"ts": "2026-04-23T10:07:34", "event": "router_routed", "command": "ora", "normalized": "ora", "tool_name": "get_current_time"}
+{"ts": "2026-04-23T10:07:34", "event": "tool_start", "agent_name": "Zeta", "task": "Esegui comando: ora", "tool_name": "get_current_time", "kwargs": {}}
+{"ts": "2026-04-23T10:07:34", "event": "tool_ok", "agent_name": "Zeta", "task": "Esegui comando: ora", "tool_name": "get_current_time", "elapsed_ms": 0}
+{"ts": "2026-04-23T10:07:34", "event": "router_routed", "command": "somma", "normalized": "somma", "tool_name": "add_numbers"}
+{"ts": "2026-04-23T10:07:34", "event": "tool_start", "agent_name": "Zeta", "task": "Esegui comando: somma", "tool_name": "add_numbers", "kwargs": {"a": 15, "b": 40}}
+{"ts": "2026-04-23T10:07:34", "event": "tool_ok", "agent_name": "Zeta", "task": "Esegui comando: somma", "tool_name": "add_numbers", "elapsed_ms": 0}
+{"ts": "2026-04-23T10:11:29", "event": "router_routed", "command": "ora", "normalized": "ora", "tool_name": "get_current_time"}
+{"ts": "2026-04-23T10:11:29", "event": "tool_start", "agent_name": "Zeta", "task": "Esegui comando: ora", "tool_name": "get_current_time", "kwargs": {}}
+{"ts": "2026-04-23T10:11:29", "event": "tool_ok", "agent_name": "Zeta", "task": "Esegui comando: ora", "tool_name": "get_current_time", "elapsed_ms": 0}
+{"ts": "2026-04-23T10:11:29", "event": "router_routed", "command": "somma", "normalized": "somma", "tool_name": "add_numbers"}
+{"ts": "2026-04-23T10:11:29", "event": "tool_start", "agent_name": "Zeta", "task": "Esegui comando: somma", "tool_name": "add_numbers", "kwargs": {"a": 15, "b": 30}}
+{"ts": "2026-04-23T10:11:29", "event": "tool_ok", "agent_name": "Zeta", "task": "Esegui comando: somma", "tool_name": "add_numbers", "elapsed_ms": 0}
+{"ts": "2026-04-23T10:16:16", "event": "router_routed", "command": "ora", "normalized": "ora", "tool_name": "get_current_time"}
+{"ts": "2026-04-23T10:16:16", "event": "tool_start", "agent_name": "Zeta", "task": "Esegui comando: ora", "tool_name": "get_current_time", "kwargs": {}}
+{"ts": "2026-04-23T10:16:16", "event": "tool_ok", "agent_name": "Zeta", "task": "Esegui comando: ora", "tool_name": "get_current_time", "elapsed_ms": 0}
+{"ts": "2026-04-23T10:18:56", "event": "router_routed", "command": "ora", "normalized": "ora", "tool_name": "get_current_time"}
+{"ts": "2026-04-23T10:18:56", "event": "tool_start", "agent_name": "Zeta", "task": "Esegui comando: ora", "tool_name": "get_current_time", "kwargs": {}}
+{"ts": "2026-04-23T10:18:56", "event": "tool_ok", "agent_name": "Zeta", "task": "Esegui comando: ora", "tool_name": "get_current_time", "elapsed_ms": 0}
+{"ts": "2026-04-23T10:19:04", "event": "router_routed", "command": "somma", "normalized": "somma", "tool_name": "add_numbers"}
+{"ts": "2026-04-23T10:19:04", "event": "tool_start", "agent_name": "Zeta", "task": "Esegui comando: somma", "tool_name": "add_numbers", "kwargs": {"a": 40, "b": 20}}
+{"ts": "2026-04-23T10:19:04", "event": "tool_ok", "agent_name": "Zeta", "task": "Esegui comando: somma", "tool_name": "add_numbers", "elapsed_ms": 0}
+{"ts": "2026-04-23T13:58:50", "event": "router_routed", "command": "ora", "normalized": "ora", "tool_name": "get_current_time"}
+{"ts": "2026-04-23T13:58:50", "event": "tool_start", "agent_name": "Zeta", "task": "Esegui comando: ora", "tool_name": "get_current_time", "kwargs": {}}
+{"ts": "2026-04-23T13:58:50", "event": "tool_ok", "agent_name": "Zeta", "task": "Esegui comando: ora", "tool_name": "get_current_time", "elapsed_ms": 0}
+{"ts": "2026-04-23T14:04:09", "event": "tool_start", "agent_name": "TestBot", "task": "Somma", "tool_name": "add_numbers", "kwargs": {"a": 1, "b": 2}}
+{"ts": "2026-04-23T14:04:09", "event": "tool_ok", "agent_name": "TestBot", "task": "Somma", "tool_name": "add_numbers", "elapsed_ms": 0}
+{"ts": "2026-04-23T14:04:09", "event": "tool_unknown", "agent_name": "TestBot", "task": "X", "tool_name": "non_esiste"}
+{"ts": "2026-04-23T14:04:09", "event": "router_routed", "command": "somma", "normalized": "somma", "tool_name": "add_numbers"}
+{"ts": "2026-04-23T14:04:09", "event": "tool_start", "agent_name": "TestBot", "task": "Somma", "tool_name": "add_numbers", "kwargs": {"a": 2, "b": 3}}
+{"ts": "2026-04-23T14:04:09", "event": "tool_ok", "agent_name": "TestBot", "task": "Somma", "tool_name": "add_numbers", "elapsed_ms": 0}
+{"ts": "2026-04-23T14:04:09", "event": "router_routed", "command": "ora", "normalized": "ora", "tool_name": "get_current_time"}
+{"ts": "2026-04-23T14:04:09", "event": "router_routed", "command": "somma", "normalized": "somma", "tool_name": "add_numbers"}
+{"ts": "2026-04-23T14:04:09", "event": "router_routed", "command": "llm", "normalized": "llm", "tool_name": "ask_llm"}
+{"ts": "2026-04-23T14:04:09", "event": "router_routed", "command": "  ORA  ", "normalized": "ora", "tool_name": "get_current_time"}
+{"ts": "2026-04-23T14:04:09", "event": "router_error", "command": "", "reason": "empty_command"}
+{"ts": "2026-04-23T14:04:09", "event": "router_error", "command": "non_esiste", "reason": "unknown_command"}
+{"ts": "2026-04-23T14:05:15", "event": "tool_start", "agent_name": "TestBot", "task": "Somma", "tool_name": "add_numbers", "kwargs": {"a": 1, "b": 2}}
+{"ts": "2026-04-23T14:05:15", "event": "tool_ok", "agent_name": "TestBot", "task": "Somma", "tool_name": "add_numbers", "elapsed_ms": 0}
+{"ts": "2026-04-23T14:05:15", "event": "tool_unknown", "agent_name": "TestBot", "task": "X", "tool_name": "non_esiste"}
+{"ts": "2026-04-23T14:05:15", "event": "router_routed", "command": "somma", "normalized": "somma", "tool_name": "add_numbers"}
+{"ts": "2026-04-23T14:05:15", "event": "tool_start", "agent_name": "TestBot", "task": "Somma", "tool_name": "add_numbers", "kwargs": {"a": 2, "b": 3}}
+{"ts": "2026-04-23T14:05:15", "event": "tool_ok", "agent_name": "TestBot", "task": "Somma", "tool_name": "add_numbers", "elapsed_ms": 0}
+{"ts": "2026-04-23T14:05:15", "event": "router_routed", "command": "ora", "normalized": "ora", "tool_name": "get_current_time"}
+{"ts": "2026-04-23T14:05:15", "event": "router_routed", "command": "somma", "normalized": "somma", "tool_name": "add_numbers"}
+{"ts": "2026-04-23T14:05:15", "event": "router_routed", "command": "llm", "normalized": "llm", "tool_name": "ask_llm"}
+{"ts": "2026-04-23T14:05:15", "event": "router_routed", "command": "  ORA  ", "normalized": "ora", "tool_name": "get_current_time"}
+{"ts": "2026-04-23T14:05:15", "event": "router_error", "command": "", "reason": "empty_command"}
+{"ts": "2026-04-23T14:05:15", "event": "router_error", "command": "non_esiste", "reason": "unknown_command"}
+{"ts": "2026-04-23T14:08:05", "event": "router_error", "command": "llm", "reason": "unknown_command"}
+{"ts": "2026-04-23T14:09:53", "event": "router_routed", "command": "llm", "normalized": "llm", "tool_name": "ask_llm"}
+{"ts": "2026-04-23T14:09:53", "event": "tool_start", "agent_name": "Zeta", "task": "Esegui comando: llm", "tool_name": "ask_llm", "kwargs": {"prompt": "Ciao"}}
+{"ts": "2026-04-23T14:09:53", "event": "tool_error", "agent_name": "Zeta", "task": "Esegui comando: llm", "tool_name": "ask_llm", "kwargs": {"prompt": "Ciao"}, "elapsed_ms": 0, "error_type": "RuntimeError", "error": "OPENAI_API_KEY mancante: imposta la variabile d'ambiente o un file .env."}
+{"ts": "2026-04-23T14:11:25", "event": "router_routed", "command": "llm", "normalized": "llm", "tool_name": "ask_llm"}
+{"ts": "2026-04-23T14:11:25", "event": "tool_start", "agent_name": "Zeta", "task": "Esegui comando: llm", "tool_name": "ask_llm", "kwargs": {"prompt": "Ciao"}}
+{"ts": "2026-04-23T14:11:25", "event": "tool_error", "agent_name": "Zeta", "task": "Esegui comando: llm", "tool_name": "ask_llm", "kwargs": {"prompt": "Ciao"}, "elapsed_ms": 0, "error_type": "RuntimeError", "error": "OPENAI_API_KEY mancante: imposta la variabile d'ambiente o un file .env."}
+{"ts": "2026-04-23T14:14:34", "event": "router_routed", "command": "llm", "normalized": "llm", "tool_name": "ask_llm"}
+{"ts": "2026-04-23T14:14:34", "event": "tool_start", "agent_name": "Zeta", "task": "Esegui comando: llm", "tool_name": "ask_llm", "kwargs": {"prompt": "Ciao"}}
+{"ts": "2026-04-23T14:14:40", "event": "tool_error", "agent_name": "Zeta", "task": "Esegui comando: llm", "tool_name": "ask_llm", "kwargs": {"prompt": "Ciao"}, "elapsed_ms": 6530, "error_type": "RateLimitError", "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}"}
+{"ts": "2026-04-23T14:20:35", "event": "router_routed", "command": "llm", "normalized": "llm", "tool_name": "ask_llm"}
+{"ts": "2026-04-23T14:20:35", "event": "tool_start", "agent_name": "Zeta", "task": "Esegui comando: llm", "tool_name": "ask_llm", "kwargs": {"prompt": "Ciao"}}
+{"ts": "2026-04-23T14:20:36", "event": "tool_ok", "agent_name": "Zeta", "task": "Esegui comando: llm", "tool_name": "ask_llm", "elapsed_ms": 1471}
